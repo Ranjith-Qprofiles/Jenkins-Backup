@@ -1,0 +1,25 @@
+Started by GitHub push by dev-aug-2023
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/simple_C_program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/simple_C_program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/simple_C_program.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/simple_C_program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/simple_C_program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e5e0bda5272ea1a56e43557a152ea432c537dc8c (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e5e0bda5272ea1a56e43557a152ea432c537dc8c # timeout=10
+Commit message: "Update test.c"
+ > git rev-list --no-walk f72e6f1b7e8785105123c2f1616d404a5a9a4bf0 # timeout=10
+[simple_C_program] $ /bin/sh -xe /tmp/jenkins14495984276983952989.sh
+[simple_C_program] $ /bin/sh -xe /tmp/jenkins4629372919295444746.sh
++ cd /var/lib/jenkins/workspace/simple_C_program
++ make MATHS.exe
+make: 'MATHS.exe' is up to date.
++ sudo cp MATHS.exe /home/ec2-user/jenkinsBuild
+Finished: SUCCESS

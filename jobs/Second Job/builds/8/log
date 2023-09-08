@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4O3l6wqNsFY/zj8VS5pUT7Ap5omdiHzOi12xFglGa72EAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JH23zKLiElUjAy8gGwBM+O/exgAAAA==[0mFirst Job" build number [8mha:////4PLIIjQocNBEo8mxWc6RHXOG9UhtuoTq5B0enXCieTgDAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6bplFxSWqRgZeQLYJANJZF5bHAAAA[0m4
+originally caused by:
+ Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Second Job
+[Second Job] $ /bin/sh -xe /tmp/jenkins3465121317315013041.sh
++ ls -lrt
+total 0
++ pwd
+/var/lib/jenkins/workspace/Second Job
++ ls
+[parameterized-trigger] Downstream builds will not be triggered as no parameter is set.
+Finished: SUCCESS

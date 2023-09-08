@@ -1,0 +1,24 @@
+Started by GitHub push by dev-aug-2023
+Running as SYSTEM
+Building remotely on [8mha:////4DXvbysO/POb1aWBmfjCi6gDP4R1LXvjAH+xKVNLm31QAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/WTdgqL89KLEXN08oIsByPAT8s0AAAA=[0mc-program-node in workspace /home/ec2-user/workspace/simple_C_program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/simple_C_program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/simple_C_program.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/simple_C_program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/simple_C_program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 48a3fbd0a7e8454fbce521be2a5a558c1ed7a6af (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 48a3fbd0a7e8454fbce521be2a5a558c1ed7a6af # timeout=10
+Commit message: "Update test.c"
+ > git rev-list --no-walk e6f2553c50ad56b4f69e599a9ab1aeab5e5dff7a # timeout=10
+[simple_C_program] $ /bin/sh -xe /tmp/jenkins11768330905662951434.sh
+[simple_C_program] $ /bin/sh -xe /tmp/jenkins7420032350246101608.sh
++ cd /home/ec2-user/workspace/simple_C_program
++ make MATHS.exe
+make: 'MATHS.exe' is up to date.
+Finished: SUCCESS

@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>First Job</upstreamProject>
+            <upstreamUrl>job/First%20Job/</upstreamUrl>
+            <upstreamBuild>6</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ranjith</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.4.0">
+              <sha1>48a3fbd0a7e8454fbce521be2a5a558c1ed7a6af</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>38</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/dev-aug-2023/simple_C_program.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.plugins.parameterizedtrigger.BuildInfoExporterAction plugin="parameterized-trigger@2.46">
+      <builds>
+        <hudson.plugins.parameterizedtrigger.BuildInfoExporterAction_-BuildReference>
+          <projectName>simple_java_program</projectName>
+          <buildNumber>0</buildNumber>
+          <buildResult>NOT_BUILT</buildResult>
+        </hudson.plugins.parameterizedtrigger.BuildInfoExporterAction_-BuildReference>
+      </builds>
+      <lastReference reference="../builds/hudson.plugins.parameterizedtrigger.BuildInfoExporterAction_-BuildReference"/>
+    </hudson.plugins.parameterizedtrigger.BuildInfoExporterAction>
+  </actions>
+  <queueId>135</queueId>
+  <timestamp>1694096313151</timestamp>
+  <startTime>1694096313155</startTime>
+  <result>SUCCESS</result>
+  <duration>686</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>c-program-node</builtOn>
+  <workspace>/home/ec2-user/workspace/simple_C_program</workspace>
+  <hudsonVersion>2.414.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.2.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

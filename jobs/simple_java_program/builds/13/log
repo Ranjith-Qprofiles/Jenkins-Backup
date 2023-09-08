@@ -1,0 +1,21 @@
+Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building remotely on [8mha:////4GOO6EAQ1cBa4QE/MYZ8hsO3YTeewgkk031cLN/R4bBpAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQifZBhugVF+elFibm6eUBHAwA/JAR30AAAAA==[0mjava-program-node in workspace /home/ec2-user/workspace/simple_java_program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/simple_java_program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/simple_java_program.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/simple_java_program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/simple_java_program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 009882bb384d6c17a74bb7d8b5fe4fbc6bd662e5 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 009882bb384d6c17a74bb7d8b5fe4fbc6bd662e5 # timeout=10
+Commit message: "Added files for  java proect"
+ > git rev-list --no-walk 009882bb384d6c17a74bb7d8b5fe4fbc6bd662e5 # timeout=10
+[simple_java_program] $ /bin/sh -xe /tmp/jenkins235076795422738290.sh
++ cd /home/ec2-user/workspace/simple_java_program
+Finished: SUCCESS

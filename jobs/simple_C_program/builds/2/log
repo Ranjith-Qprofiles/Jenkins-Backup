@@ -1,0 +1,45 @@
+Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/ranjith11143.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/ranjith11143.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/ranjith11143.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 67be5bd166abcde43fdc97f010119d2c6babff22 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67be5bd166abcde43fdc97f010119d2c6babff22 # timeout=10
+Commit message: "Percentage file added"
+ > git rev-list --no-walk 67be5bd166abcde43fdc97f010119d2c6babff22 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins2030610509810950622.sh
+[c-project] $ /bin/sh -xe /tmp/jenkins8191940313617339001.sh
++ cd /var/lib/jenkins/workspace/c-project
++ make MATHS.exe
+gcc -c main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    1 | main()
+      | ^~~~
+main.c: In function ‘main’:
+main.c:3:9: warning: implicit declaration of function ‘mul’ [-Wimplicit-function-declaration]
+    3 |         mul();
+      |         ^~~
+main.c:5:9: warning: implicit declaration of function ‘add’ [-Wimplicit-function-declaration]
+    5 |         add() ;
+      |         ^~~
+main.c:7:9: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+    7 |         big3();
+      |         ^~~~
+main.c:9:9: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+    9 |         fact();
+      |         ^~~~
+gcc -c mul.c
+gcc -c add.c
+gcc -c big3.c
+gcc -c fact.c
+gcc -o MATHS.exe main.o mul.o add.o big3.o fact.o
+Finished: SUCCESS

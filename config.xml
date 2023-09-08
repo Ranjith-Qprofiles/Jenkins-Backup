@@ -1,0 +1,124 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.diagnostics.ControllerExecutorsNoAgents</string>
+  </disabledAdministrativeMonitors>
+  <version>2.414.1</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:ranjith</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Create:vinay</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:ranjith</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Delete:vinay</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:ranjith</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:vinay</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:ranjith</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.Update:vinay</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:kiran</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:ranjith</permission>
+    <permission>USER:com.cloudbees.plugins.credentials.CredentialsProvider.View:vinay</permission>
+    <permission>USER:hudson.model.Computer.Build:ranjith</permission>
+    <permission>USER:hudson.model.Computer.Build:vinay</permission>
+    <permission>USER:hudson.model.Computer.Configure:anonymous</permission>
+    <permission>USER:hudson.model.Computer.Configure:ranjith</permission>
+    <permission>USER:hudson.model.Computer.Configure:vinay</permission>
+    <permission>USER:hudson.model.Computer.Connect:ranjith</permission>
+    <permission>USER:hudson.model.Computer.Connect:vinay</permission>
+    <permission>USER:hudson.model.Computer.Create:ranjith</permission>
+    <permission>USER:hudson.model.Computer.Create:vinay</permission>
+    <permission>USER:hudson.model.Computer.Delete:ranjith</permission>
+    <permission>USER:hudson.model.Computer.Delete:vinay</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:ranjith</permission>
+    <permission>USER:hudson.model.Computer.Disconnect:vinay</permission>
+    <permission>USER:hudson.model.Hudson.Administer:ranjith</permission>
+    <permission>USER:hudson.model.Hudson.Administer:vinay</permission>
+    <permission>USER:hudson.model.Hudson.Read:kiran</permission>
+    <permission>USER:hudson.model.Hudson.Read:monish</permission>
+    <permission>USER:hudson.model.Hudson.Read:ranjith</permission>
+    <permission>USER:hudson.model.Hudson.Read:vinay</permission>
+    <permission>USER:hudson.model.Item.Build:ranjith</permission>
+    <permission>USER:hudson.model.Item.Build:vinay</permission>
+    <permission>USER:hudson.model.Item.Cancel:ranjith</permission>
+    <permission>USER:hudson.model.Item.Cancel:vinay</permission>
+    <permission>USER:hudson.model.Item.Configure:kiran</permission>
+    <permission>USER:hudson.model.Item.Configure:ranjith</permission>
+    <permission>USER:hudson.model.Item.Configure:vinay</permission>
+    <permission>USER:hudson.model.Item.Create:ranjith</permission>
+    <permission>USER:hudson.model.Item.Create:vinay</permission>
+    <permission>USER:hudson.model.Item.Delete:ranjith</permission>
+    <permission>USER:hudson.model.Item.Delete:vinay</permission>
+    <permission>USER:hudson.model.Item.Discover:ranjith</permission>
+    <permission>USER:hudson.model.Item.Discover:vinay</permission>
+    <permission>USER:hudson.model.Item.Move:ranjith</permission>
+    <permission>USER:hudson.model.Item.Move:vinay</permission>
+    <permission>USER:hudson.model.Item.Read:kiran</permission>
+    <permission>USER:hudson.model.Item.Read:monish</permission>
+    <permission>USER:hudson.model.Item.Read:ranjith</permission>
+    <permission>USER:hudson.model.Item.Read:vinay</permission>
+    <permission>USER:hudson.model.Item.Workspace:kiran</permission>
+    <permission>USER:hudson.model.Item.Workspace:ranjith</permission>
+    <permission>USER:hudson.model.Item.Workspace:vinay</permission>
+    <permission>USER:hudson.model.Run.Delete:ranjith</permission>
+    <permission>USER:hudson.model.Run.Delete:vinay</permission>
+    <permission>USER:hudson.model.Run.Replay:ranjith</permission>
+    <permission>USER:hudson.model.Run.Replay:vinay</permission>
+    <permission>USER:hudson.model.Run.Update:ranjith</permission>
+    <permission>USER:hudson.model.Run.Update:vinay</permission>
+    <permission>USER:hudson.model.View.Configure:ranjith</permission>
+    <permission>USER:hudson.model.View.Configure:vinay</permission>
+    <permission>USER:hudson.model.View.Create:ranjith</permission>
+    <permission>USER:hudson.model.View.Create:vinay</permission>
+    <permission>USER:hudson.model.View.Delete:ranjith</permission>
+    <permission>USER:hudson.model.View.Delete:vinay</permission>
+    <permission>USER:hudson.model.View.Read:kiran</permission>
+    <permission>USER:hudson.model.View.Read:monish</permission>
+    <permission>USER:hudson.model.View.Read:ranjith</permission>
+    <permission>USER:hudson.model.View.Read:vinay</permission>
+    <permission>USER:hudson.scm.SCM.Tag:ranjith</permission>
+    <permission>USER:hudson.scm.SCM.Tag:vinay</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Promote:ranjith</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Promote:vinay</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Release:ranjith</permission>
+    <permission>USER:org.jfrog.hudson.ArtifactoryPlugin.Release:vinay</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks>
+    <jdk>
+      <name>JAVA_HOME</name>
+      <home>/usr/lib/jvm/java-11-openjdk-11.0.20.0.8-3.el9.x86_64</home>
+      <properties/>
+    </jdk>
+  </jdks>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+  <nodeRenameMigrationNeeded>false</nodeRenameMigrationNeeded>
+</hudson>

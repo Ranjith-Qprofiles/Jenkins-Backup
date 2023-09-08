@@ -1,0 +1,25 @@
+Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/ranjith11143.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/ranjith11143.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/ranjith11143.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 67be5bd166abcde43fdc97f010119d2c6babff22 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67be5bd166abcde43fdc97f010119d2c6babff22 # timeout=10
+Commit message: "Percentage file added"
+ > git rev-list --no-walk 67be5bd166abcde43fdc97f010119d2c6babff22 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins9462208931220783776.sh
+[c-project] $ /bin/sh -xe /tmp/jenkins10590242776696067779.sh
++ cd /var/lib/jenkins/workspace/c-project
++ make MATHS.exe
+make: 'MATHS.exe' is up to date.
++ sudo cp MATHS.exe /home/ec2-user/jenkinsBuild
+Finished: SUCCESS

@@ -1,0 +1,64 @@
+Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building remotely on [8mha:////4DXvbysO/POb1aWBmfjCi6gDP4R1LXvjAH+xKVNLm31QAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/WTdgqL89KLEXN08oIsByPAT8s0AAAA=[0mc-program-node in workspace /home/ec2-user/workspace/simple_java_program
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/dev-aug-2023/simple_java_program.git
+ > git init /home/ec2-user/workspace/simple_java_program # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/simple_java_program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/simple_java_program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dev-aug-2023/simple_java_program.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 009882bb384d6c17a74bb7d8b5fe4fbc6bd662e5 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 009882bb384d6c17a74bb7d8b5fe4fbc6bd662e5 # timeout=10
+Commit message: "Added files for  java proect"
+ > git rev-list --no-walk 009882bb384d6c17a74bb7d8b5fe4fbc6bd662e5 # timeout=10
+[simple_java_program] $ cmd /c call /tmp/jenkins5429484927468434561.bat
+FATAL: command execution failed
+java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to c-program-node
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1784)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:1000)
+		at hudson.Launcher$RemoteLauncher.launch(Launcher.java:1121)
+		at hudson.Launcher$ProcStarter.start(Launcher.java:506)
+		at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:144)
+		at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+		at hudson.model.Build$BuildExecution.build(Build.java:199)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+		at hudson.model.Run.execute(Run.java:1900)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:101)
+		at hudson.model.Executor.run(Executor.java:442)
+Caused: java.io.IOException: Cannot run program "cmd" (in directory "/home/ec2-user/workspace/simple_java_program"): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at hudson.Proc$LocalProc.<init>(Proc.java:252)
+	at hudson.Proc$LocalProc.<init>(Proc.java:221)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:994)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:506)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1395)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1337)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:377)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4O3l6wqNsFY/zj8VS5pUT7Ap5omdiHzOi12xFglGa72EAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JH23zKLiElUjAy8gGwBM+O/exgAAAA==[0mFirst Job" build number [8mha:////4GAp3Fq4CN1Kf5L1h8sYysp7Scf5EYQ57Txwb06Oj7ZCAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6bplFxSWqRgZeQLY5AGgIHg/HAAAA[0m7
+originally caused by:
+ Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building remotely on [8mha:////4DXvbysO/POb1aWBmfjCi6gDP4R1LXvjAH+xKVNLm31QAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/WTdgqL89KLEXN08oIsByPAT8s0AAAA=[0mc-program-node in workspace /home/ec2-user/workspace/simple_C_program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/simple_C_program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/simple_C_program.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/simple_C_program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/simple_C_program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 48a3fbd0a7e8454fbce521be2a5a558c1ed7a6af (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 48a3fbd0a7e8454fbce521be2a5a558c1ed7a6af # timeout=10
+Commit message: "Update test.c"
+ > git rev-list --no-walk 48a3fbd0a7e8454fbce521be2a5a558c1ed7a6af # timeout=10
+[simple_C_program] $ /bin/sh -xe /tmp/jenkins6908462638910888562.sh
+[simple_C_program] $ /bin/sh -xe /tmp/jenkins10216386064442397021.sh
++ cd /home/ec2-user/workspace/simple_C_program
++ make MATHS.exe
+make: 'MATHS.exe' is up to date.
+Triggering projects: [8mha:////4CByp/7+HOGzGRq4TKY8sZuFJpm7sFTX6oMyYjYCgdgXAAAAmB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLmGQ1M/KT9IvzswtyEmNBxkXX1CUn16UmKsPAH7hUZyeAAAA[0msimple_java_program
+Finished: SUCCESS

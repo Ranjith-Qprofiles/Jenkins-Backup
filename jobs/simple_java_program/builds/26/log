@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4Mdq5qx6pnrkRYjdSdr12Tm0lOoNba3Je1zLsi8FczEjAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP3izNyCnNR45/iCovz0osRcfQD4ql7BywAAAA==[0msimple_C_program" build number [8mha:////4HDVCa39CZux52yOAKDLuc2OfzbupYZQknr+ST+gYiaAAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JP3izNyCnNR45/iCovz0osRcfRNjAPi0ofDNAAAA[0m43
+originally caused by:
+ Started by upstream project "[8mha:////4O3l6wqNsFY/zj8VS5pUT7Ap5omdiHzOi12xFglGa72EAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JH23zKLiElUjAy8gGwBM+O/exgAAAA==[0mFirst Job" build number [8mha:////4NCi2Zocg6VEor7WhVTkDgKAraQHiXso2GIxW9Q2PMb2AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6bplFxSWqRgZeQLYFAPkVoZ/HAAAA[0m8
+ originally caused by:
+  Started by user [8mha:////4DVmwd1ehDnnZ1g5BYZQ3NCdQuDh+Xqf5yKu+L/AnMqyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZe/dLi1CL9osS8rMySDAC1PWbIwgAAAA==[0mRanjith Kumar K
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/simple_java_program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/simple_java_program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/dev-aug-2023/simple_java_program.git # timeout=10
+Fetching upstream changes from https://github.com/dev-aug-2023/simple_java_program.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/dev-aug-2023/simple_java_program.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e5bed603636173ad00f439f268d9fae738d0794f (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e5bed603636173ad00f439f268d9fae738d0794f # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk e5bed603636173ad00f439f268d9fae738d0794f # timeout=10
+[simple_java_program] $ /bin/sh -xe /tmp/jenkins2296810742358034170.sh
++ cd /home/ec2-user/workspace/apache-maven-3.9.4
+/tmp/jenkins2296810742358034170.sh: line 2: cd: /home/ec2-user/workspace/apache-maven-3.9.4: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
